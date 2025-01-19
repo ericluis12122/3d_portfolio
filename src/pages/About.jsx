@@ -2,6 +2,7 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import { skills, experiences } from '../constants'
 import CTA from '../components/CTA';
+import Tooltip from '../components/Tooltip';
 
 const About = () => {
   return (
@@ -10,31 +11,36 @@ const About = () => {
         Hello, I'm <span className='blue-gradient_text font-semibold drop-shadow'>Eric</span>
       </h1>
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-        <p>Software developer based in Spain, specializing in technical
-           education through hands-on learning and building aplications.</p>
+        <p>I'm a Cuban software developer now based in Spain. I specialize in technical 
+          education through hands-on learning and enjoy creating impactful applications 
+          that solve real-world problems.</p>
       </div>
       <div className='py-10 flex flex-col'>
         <h3 className='subhead-text'>My Skills</h3>
         <div className='mt-16 flex flex-wrap gap-12'>
           {skills.map((skill) => (
-            <div className='block-container w-20 h-20'>
-              <div className='btn-back rounded-xl'></div>
-              <div className='btn-front rounded-xl flex justify-center items-center'>
-                <img 
-                  src={skill.imageUrl} 
-                  alt={skill.name}
-                  className='w-1/2 h-1/2 object-contain'
-                />
+            <Tooltip text={skill.name} position='top' key={skill.name}>
+              <div className='block-container w-20 h-20'>
+                <div className='btn-back rounded-xl'></div>
+                <div className='btn-front rounded-xl flex justify-center items-center'>
+                  <img 
+                    src={skill.imageUrl} 
+                    alt={skill.name}
+                    className='w-3/4 h-3/4 object-contain'
+                  />
+                </div>
               </div>
-            </div>
+            </Tooltip>
           ))}
         </div>
       </div>
       <div className='py-16'>
-        <h3 className='subhead-text'>Work Experience</h3>
+        <h3 className='subhead-text'>Programming Experience</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-          <p>I've worked with all sorts of companies, leveling up my skills and
-            teaming up with smart people. Here's the rundown:</p>
+          <p>I've honed my skills through a variety of programming projects, collaborating 
+            with talented individuals and tackling challenges in diverse contexts. 
+            Whether for work, personal passion, or academic growth, every line of code 
+            has been an opportunity to learn and innovate. Here's the breakdown:</p>
         </div>
         <div className='mt-12 flex'>
           <VerticalTimeline>

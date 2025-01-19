@@ -10,11 +10,16 @@ const Projects = () => {
         My <span className='blue-gradient_text font-semibold drop-shadow'>Projects</span>
       </h1>
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-        <p>I've embarked on numerous projects throughout the years, but these are
-        the ones I hold closest to my heart. Many of them are open-source, so if
-        you come across something that piques your interest, feel free to
-        explore the codebase and contribute your ideas for further enhancements.
-        Your collaboration is highly valued!</p>
+        <p>Hi there! I'm Eric, a passionate software developer with a deep love for creating 
+          applications that combine functionality, efficiency, and creativity. Here, you'll find 
+          a collection of my public projects, showcasing my skills, dedication, and enthusiasm for 
+          problem-solving. Each project reflects my journey through various technologies, including 
+          frontend frameworks like React.js, Vue.js, and Next.js, as well as backend systems using Node.js, 
+          Spring Boot, and Django. I've also ventured into areas like game development, mental agility apps, 
+          and user authentication systems with secure token-based mechanisms. 
+          Feel free to explore, fork, or contribute to any of the repositories. 
+          These projects are not just a demonstration of my technical expertise but also an invitation to 
+          collaborate, learn, and innovate together. Let's build something amazing!</p>
       </div>
       <div className="flex flex-wrap my-20 gap-16">
         {projects.map((project) => (
@@ -25,7 +30,7 @@ const Projects = () => {
                 <img 
                   src={project.iconUrl} 
                   alt='Project Icon'
-                  className="w-1/2 h-1/2 object-contain"
+                  className="w-full h-full object-contain"
                 />
               </div>
             </div>

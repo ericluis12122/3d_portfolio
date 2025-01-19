@@ -1,6 +1,5 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { universidad, ink, superprofe, ninja, score, rick_morty, libro } from "../assets/images";
 import {
-    car,
     contact,
     css,
     estate,
@@ -11,45 +10,39 @@ import {
     javascript,
     linkedin,
     mongodb,
-    motion,
-    mui,
     nextjs,
     nodejs,
-    pricewise,
     react,
-    redux,
     sass,
-    snapgram,
     summiz,
     tailwindcss,
-    threads,
-    typescript
+    typescript,
+    csharp,
+    java,
+    sql,
+    exercism,
+    python,
 } from "../assets/icons";
 
 export const skills = [
+    {
+        imageUrl: html,
+        name: "HTML",
+        type: "Frontend",
+    },
     {
         imageUrl: css,
         name: "CSS",
         type: "Frontend",
     },
     {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
+        imageUrl: sass,
+        name: "Sass",
+        type: "Frontend",
     },
     {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
-    },
-    {
-        imageUrl: html,
-        name: "HTML",
+        imageUrl: tailwindcss,
+        name: "Tailwind CSS",
         type: "Frontend",
     },
     {
@@ -58,18 +51,13 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
+        imageUrl: typescript,
+        name: "TypeScript",
+        type: "Frontend",
     },
     {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
+        imageUrl: react,
+        name: "React",
         type: "Frontend",
     },
     {
@@ -83,84 +71,115 @@ export const skills = [
         type: "Backend",
     },
     {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
+        imageUrl: express,
+        name: "Express",
+        type: "Backend",
     },
     {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
+        imageUrl: python,
+        name: "Python",
+        type: "Backend",
     },
     {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
+        imageUrl: csharp,
+        name: "Csharp",
+        type: "Backend",
     },
     {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
+        imageUrl: java,
+        name: "Java",
+        type: "Backend",
     },
     {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    }
+        imageUrl: git,
+        name: "Git",
+        type: "Version Control",
+    },
+    {
+        imageUrl: github,
+        name: "GitHub",
+        type: "Version Control",
+    },
+    {
+        imageUrl: mongodb,
+        name: "MongoDB",
+        type: "Database",
+    },
+    {
+        imageUrl: sql,
+        name: "Sql",
+        type: "Database",
+    },
+    // {
+    //     imageUrl: motion,
+    //     name: "Motion",
+    //     type: "Animation",
+    // },
+    // {
+    //     imageUrl: mui,
+    //     name: "Material-UI",
+    //     type: "Frontend",
+    // },
+    
+    // {
+    //     imageUrl: redux,
+    //     name: "Redux",
+    //     type: "State Management",
+    // }, 
 ];
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Computer Science training",
+        company_name: "University of Havana",
+        icon: universidad,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "Sep 2008 - Jun 2014",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+            "Studied programming languages with a special emphasis on C# and Java.",
+            "Gained in-depth knowledge of data structures and algorithms.",
+            "Worked on a compiler project as part of a compilation course.",
+            "Developed a file system project during the Operating Systems course.",
+            "Learned the fundamentals of relational database theory.",
+            "Studied assembly language and its application in low-level programming.",
+            "Collaborated on various projects involving software development and system design."
+        ]        
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Full Stack Developer",
+        company_name: "InkPresion",
+        icon: ink,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "Jun 2014 - Nov 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+            "Designed, developed, and maintained an automated accounting system, optimizing the company's financial management.",
+            "Implemented features for inventory and point-of-sale management, enhancing operational efficiency.",
+            "Supervised and trained accounting technicians on the use of the new system, ensuring its correct implementation."
+        ]        
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "Web Developer - Shadow",
+        company_name: "Freelancer",
+        icon: ninja,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        date: "Jan 2018 - Jan 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+            "Contributed to numerous web application development projects, working as a developer in the background.",
+            "Specialized in frontend development using Vue.js, React.js, and Next.js, delivering responsive and dynamic user interfaces.",
+            "Worked on backend development with Node.js, Spring Boot, and Django, ensuring robust and scalable server-side functionality."
+        ]        
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        title: "Programming Languages Teacher",
+        company_name: "Private Teacher",
+        icon: superprofe,
+        iconBg: "#fbc3bc",
+        date: "Jan 2013 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+            "I have had a long and rewarding career as a private programming tutor, imparting knowledge to students across various platforms such as Superprofe, TusClasesParticulares, and others.",
+            "Taught a wide range of subjects including multiple programming languages, logic, computability theory, and discrete mathematics, helping students build a solid foundation in computer science.",
+            "The languages I have worked with most extensively include C#, Java, JavaScript, and Python, adapting my teaching approach to meet the diverse needs of my students."
+        ]        
     },
 ];
 
@@ -184,45 +203,45 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: score,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Mini Games Top Score',
+        description: "Developed an application where you can play various mental agility and memory games. It keeps track of players' records across different games and maintains a ranking system. The frontend is built using Vanilla JavaScript, while the backend is powered by Node.js + Express.js, featuring user registration and authentication with tokens. Data persistence is handled using MongoDB.",
+        link: 'https://ericluis12122.github.io/frontend_mini_games_top_score',
     },
     {
-        iconUrl: threads,
+        iconUrl: rick_morty,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Rick and Morty Character Manager',
+        description: 'A full-stack CRUD application built with React + TypeScript + Vite that allows user registration and login. Once authenticated, users can interact with the Rick and Morty API to view a list of characters. The app also enables users to create, edit, and delete custom characters, providing a seamless and interactive experience. Perfect for showcasing user authentication, API integration, and CRUD operations in a modern web application.',
+        link: 'https://github.com/ericluis12122/react_avanzado',
     },
     {
-        iconUrl: car,
+        iconUrl: exercism,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'My Exercism Codes',
+        description: 'Solving programming challenges with the goal of having fun while exploring and mastering the depths of various programming languages.',
+        link: 'https://github.com/ericluis12122/exercism',
     },
     {
-        iconUrl: snapgram,
+        iconUrl: libro,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Library Management API',
+        description: 'A robust API built with Spring Boot designed to manage a library system, including books and authors. This project supports full CRUD operations, allowing users to add, edit, and delete books and authors seamlessly. The database is managed using XAMPP, showcasing efficient database integration and backend development. Ideal for demonstrating RESTful API design and CRUD functionality in Java.',
+        link: 'https://github.com/ericluis12122/biblioteca_API_spring_boot',
     },
-    {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
-    },
-    {
-        iconUrl: summiz,
-        theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+    // {
+    //     iconUrl: estate,
+    //     theme: 'btn-back-black',
+    //     name: 'Real-Estate Application',
+    //     description: '',
+    //     link: 'https://github.com/adrianhajdin/projects_realestate',
+    // },
+    // {
+    //     iconUrl: summiz,
+    //     theme: 'btn-back-yellow',
+    //     name: 'AI Summarizer Application',
+    //     description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
+    //     link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+    // }
 ];
