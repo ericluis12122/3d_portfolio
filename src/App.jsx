@@ -4,11 +4,11 @@ import {Home, About, Projects, Contact} from './pages';
 
 const App = () => {
   return (
-    <main className='bg-slate-300/20'>
+    <main className='bg-slate-300/20 h-full'>
         <Router>
             <Navbar></Navbar>
             <Routes>
-                <Route path='/' element={<Home />} />
+                <Route path='/3d_portfolio' element={<Home />} />
                 <Route path='/about' element={<About />} />
                 <Route path='/projects' element={<Projects />} />
                 <Route path='/contact' element={<Contact />} />
