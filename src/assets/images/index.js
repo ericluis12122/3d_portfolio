@@ -13,6 +13,8 @@ import soundoff from './soundoff.png'
 import score from './score.png'
 import rick_morty from './rick_morty.png'
 import libro from './libro.png'
+import chat from './chat.png'
+import instagram from './instagram.png'
 
 export {
     hero,
@@ -29,5 +31,7 @@ export {
     ninja,
     score,
     rick_morty,
-    libro
+    libro, 
+    chat,
+    instagram
 }

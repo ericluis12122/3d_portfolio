@@ -1,8 +1,7 @@
-import { universidad, ink, superprofe, ninja, score, rick_morty, libro } from "../assets/images";
+import { universidad, ink, superprofe, ninja, score, rick_morty, libro, chat, instagram } from "../assets/images";
 import {
     contact,
     css,
-    estate,
     express,
     git,
     github,
@@ -14,7 +13,6 @@ import {
     nodejs,
     react,
     sass,
-    summiz,
     tailwindcss,
     typescript,
     csharp,
@@ -110,22 +108,6 @@ export const skills = [
         name: "Sql",
         type: "Database",
     },
-    // {
-    //     imageUrl: motion,
-    //     name: "Motion",
-    //     type: "Animation",
-    // },
-    // {
-    //     imageUrl: mui,
-    //     name: "Material-UI",
-    //     type: "Frontend",
-    // },
-    
-    // {
-    //     imageUrl: redux,
-    //     name: "Redux",
-    //     type: "State Management",
-    // }, 
 ];
 
 export const experiences = [
@@ -230,18 +212,18 @@ export const projects = [
         description: 'A robust API built with Spring Boot designed to manage a library system, including books and authors. This project supports full CRUD operations, allowing users to add, edit, and delete books and authors seamlessly. The database is managed using XAMPP, showcasing efficient database integration and backend development. Ideal for demonstrating RESTful API design and CRUD functionality in Java.',
         link: 'https://github.com/ericluis12122/biblioteca_API_spring_boot',
     },
-    // {
-    //     iconUrl: estate,
-    //     theme: 'btn-back-black',
-    //     name: 'Real-Estate Application',
-    //     description: '',
-    //     link: 'https://github.com/adrianhajdin/projects_realestate',
-    // },
-    // {
-    //     iconUrl: summiz,
-    //     theme: 'btn-back-yellow',
-    //     name: 'AI Summarizer Application',
-    //     description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-    //     link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    // }
+    {
+        iconUrl: chat,
+        theme: 'btn-back-black',
+        name: 'Realtime Chat Application',
+        description: 'A Realtime Chat Application built with React for the frontend and Node.js with the Socket.io library for real-time communication on the backend. This setup enables instant messaging between users in different chat rooms.',
+        link: 'https://github.com/ericluis12122/chat_app',
+    },
+    {
+        iconUrl: instagram,
+        theme: 'btn-back-yellow',
+        name: 'e_Instagram',
+        description: 'Social Media application where users can: Register and log in. Create and edit their profiles. Post photos with descriptions. Follow other users. Like and comment on posts. The application is primarily built with Django, with AJAX used for specific frontend functionalities.',
+        link: 'https://github.com/ericluis12122/e_instagram',
+    }
 ];

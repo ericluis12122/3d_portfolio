@@ -13,8 +13,6 @@ import tailwindcss from './tailwindcss.svg'
 import typescript from './typescript.svg'
 import linkedin from './linkedin.svg'
 import twitter from './twitter.svg'
-import estate from './estate.svg'
-import summiz from './summiz.svg'
 import arrow from './arrow.svg'
 import contact from './contact.svg'
 import score from './score.svg'
@@ -40,8 +38,6 @@ export {
     typescript,
     linkedin,
     twitter,
-    estate,
-    summiz,
     arrow,
     contact,
     score,
